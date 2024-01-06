@@ -1,1 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
+:root {
+    --primarywhite: white ;
+    --bgblue: #349DFF;
+    --text-color: #333;
+    --base-font-size: 16px;
+    --font-family: Arial, Helvetica, sans-serif;
+  }

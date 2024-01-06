@@ -1,0 +1,92 @@
+.textcenter {
+    text-align: center;
+    margin-bottom: 33px;
+}
+
+.line {
+    height: 2px;
+    background: #000;
+}
+
+.header-text {
+    color: #252525;
+    font-family: var(--font-family);
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-wrap: nowrap;
+    /* margin-top: 27px; */
+    position: relative;
+    top: 36px;
+    background: #fff;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.box-design-todo {
+    width: 48%;
+height: 309px;
+flex-shrink: 0;
+border-radius: 42px;
+background: #D6FFD3;
+margin-right: 10px;
+}
+
+.box-design-portfolio {
+    width: 40%;
+    height: 309px;
+    flex-shrink: 0;
+    border-radius: 42px;
+    background: #FFD4D4;
+}
+
+.text {
+    color: #252525;
+text-align: center;
+font-family: var(--font-family);
+font-size: 71px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.card-one-design{
+    /* width: 481px; */
+height: 200px;
+flex-shrink: 0;
+border-radius: 42px;
+background: #D6FFD3;
+}
+
+.card-two-design{
+    /* width: 481px; */
+height: 200px;
+flex-shrink: 0;
+border-radius: 42px;
+background: #FFD4D4;
+}
+
+.txt {
+    text-align: center;
+    color: #252525;
+text-align: center;
+font-family: var(--font-family);
+font-size: 71px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.card {
+    transition: box-shadow 0.3s;
+    border: none;
+   }
+    
+   .card:hover {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+   }
+
+   .custom-card {
+    height: 200px;
+   }

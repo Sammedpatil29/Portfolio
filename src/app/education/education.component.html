@@ -1,0 +1,21 @@
+<div class="container-fluid textcenter">
+    <h2 class="header-text">Education</h2>
+    <div class="line"></div>
+</div>
+
+<div class="container">
+    <div class="row">
+      <div class="col-md-4" *ngFor="let card of cards">
+        <div class="card design">
+          <img [src]="card.image" class="card-img-top map-design" alt="{{ card.title }}">
+          <div class="card-body">
+            <h5 class="card-title txt text-center">{{ card.title }}</h5>
+            <h5 class="card-title txt text-center">{{ card.year }}</h5>
+            <h5 class="card-title txt text-center">{{ card.result }}</h5>
+          </div>
+        </div>
+        <h5 class="card-title txt" style="font-size: 31px !important;">{{ card.branch }}</h5>
+      </div>
+    </div>
+  </div>
+  
