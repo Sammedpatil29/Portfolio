@@ -3,7 +3,7 @@
     <div class="line"></div>
 </div>
 
-<div class="container custom-container d-flex">
+<!-- <div class="container custom-container d-flex">
     <div class="row box d-flex flex-column justify-content-center">
 <div class="col-md-3">
     <p class="txt" >Technologies</p>
@@ -14,7 +14,36 @@
 </div>
 </div>
     </div>
-</div>
+</div> -->
+
+<div class="container custom-container d-flex">
+    <div class="row box d-flex flex-column justify-content-center">
+      <div class="col-md-3">
+        <p class="txt">Technologies</p>
+      </div>
+      <div class="col-md-9 hover">
+        <div class="logos-container">
+          <img *ngFor="let logo of logos" [src]="logo.skill" alt="" class="logo-item">
+          <div class="dot-circle"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container custom-container d-flex mt-5">
+    <div class="row box d-flex flex-column justify-content-center">
+      <div class="col-md-9 hover">
+        <div class="logos-container1">
+          <img *ngFor="let logo of logos2" [src]="logo.skill" alt="" class="logo-item">
+        </div>
+      </div>
+      <div class="col-md-3">
+        <p class="txt">Other</p>
+      </div>
+    </div>
+  </div>
+  
+  
 
 <!-- <div class="container custom-container1 pl-0">
     <div class="box1 d-flex justify-content-end">

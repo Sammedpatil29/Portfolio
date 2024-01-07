@@ -85,5 +85,62 @@ margin-right: 3%;
       }
 
 
+      /* Styles to control the animation and scrolling */
+.hover {
+  overflow: hidden;
+  position: relative;
+}
+
+.logos-container {
+  display: flex;
+  animation: scrollLeft 20s linear infinite; /* Adjust duration as needed */
+}
+
+.logos-container1 {
+  display: flex;
+  animation: scrollRight 20s linear infinite; /* Adjust duration as needed */
+}
+
+.logo-item {
+  height: 137px;
+  margin-left: 80px;
+  display: inline-block;
+}
+
+.col-md-3 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+.dot-circle {
+  position: absolute;
+  top: 10px; /* Adjust distance from top */
+  right: 10px; /* Adjust distance from right */
+  width: 10px; /* Dot circle size */
+  height: 10px;
+  border-radius: 50%; /* Make it a circle */
+  background-color: red; /* Change the dot color */
+}
+
+@keyframes scrollLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+@keyframes scrollRight {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+
      
       

@@ -32,6 +32,7 @@ flex-shrink: 0;
 border-radius: 26px;
 background: #C5E0FF;
 border: none;
+position: relative;
     }
 
     .map-design {
@@ -43,7 +44,7 @@ border-radius: 26px 26px 0px 0px;
     .txt {
         color: #33403E;
 font-family: var(--font-family);
-font-size: 39px;
+font-size: 30px;
 font-style: normal;
 font-weight: 700;
 line-height: normal;
@@ -61,4 +62,31 @@ text-align: center;
       .card:hover {
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
       }
+
+      .circle {
+        width: 60px;
+        height: 60px;
+        border-radius: 50%;
+        background-color: transparent;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+  background-color: #349DFF
+}
+
+.circle:hover {
+    transform: scale(1.5); /* Increase size on hover */
+  }
+  
+  .circle svg {
+    transition: transform 0.3s ease; /* Add a transition for smooth scaling */
+  }
+  
+  .circle:hover svg {
+    transform: scale(1.2); /* Increase size of SVG on hover */
+  }
+      
       
