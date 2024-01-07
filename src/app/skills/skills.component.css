@@ -25,17 +25,38 @@
     }
 
     .box {
-        width: 1405px;
+        width: 107.5%;
 height: 191px;
 flex-shrink: 0;
 border-radius: 26px 0px 0px 26px;
 background: #EDF3FF;
+margin-right: 100%;
     }
+
+    .box1 {
+      /* width: -120px; */
+height: 191px;
+flex-shrink: 0;
+border-radius: 0px 26px 26px 0px;
+background: #EDF3FF;
+margin-top: 5%;
+align-items: center;
+margin-left: -100%;
+  }
 
     .custom-container {
         padding-right: 0;
       }
       .custom-container::after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+
+      .custom-container1 {
+        padding-left: 0;
+      }
+      .custom-container1::after {
         content: "";
         display: table;
         clear: both;
@@ -49,57 +70,20 @@ font-style: normal;
 font-weight: 700;
 line-height: normal;
 margin-left: 3%;
+display: inline-block;
+vertical-align: middle;
       }
 
-      @keyframes slide {
-        from {
-          transform: translateX(0);
-        }
-        to {
-          transform: translateX(-100%);
-        }
+      .txt1 {
+        color: #33403E;
+font-family: var(--font-family);
+font-size: 39px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-right: 3%;
       }
-      
-      .logos {
-        overflow: hidden;
-        padding: 60px 0;
-        background: transparent;
-        white-space: nowrap;
-        position: relative;
-        margin-left: 23%;
-      }
-      
-      .logos:before,
-      .logos:after {
-        position: absolute;
-        top: 0;
-        width: 250px;
-        height: 100%;
-        content: "";
-        z-index: 2;
-      }
-      
-      .logos:before {
-        left: 0;
-        background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
-      }
-      
-      .logos:after {
-        right: 0;
-        background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
-      }
-      
-      .logos:hover .logos-slide {
-        animation-play-state: paused;
-      }
-      
-      .logos-slide {
-        display: inline-block;
-        animation: 35s slide infinite linear;
-      }
-      
-      .logos-slide img {
-        height: 50px;
-        margin: 0 40px;
-      }
+
+
+     
       
