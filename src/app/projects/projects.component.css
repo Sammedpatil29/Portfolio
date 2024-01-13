@@ -79,14 +79,27 @@ line-height: normal;
 }
 
 .card {
-    transition: box-shadow 0.3s;
+    transition: box-shadow 0.3s background-color 0.7s;
     border: none;
    }
     
    .card:hover {
      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     background: rgb(2,0,36);
+background: linear-gradient(112deg, rgba(2,0,36,1) 0%, rgba(199,167,255,1) 0%, rgba(0,212,255,1) 82%) !important;
    }
 
    .custom-card {
     height: 200px;
    }
+
+   .icon {
+    transition: transform 0.5s ease-in-out;
+    transition: box-shadow 0.3s;
+  }
+  
+  .icon:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10% rgba(190, 211, 190, 0.5);
+  }
+  

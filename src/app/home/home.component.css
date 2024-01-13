@@ -95,6 +95,28 @@ display: inline-block;
 padding: 0 20px;
 }
 
+.download {
+    font-family: var(--font-family); 
+    background-color: whitesmoke; 
+    color: black; 
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+}
+
+.Linkedin {
+    font-family: var(--font-family); 
+    background-color: #0077b5; 
+    color: white; 
+    font-weight: 500;
+    border-radius: 50px;
+    border: none;
+}
+
+.btn-primary:hover {
+    box-shadow:  0 0 20px rgba(191, 202, 190, 1);
+  }
+
 
 @media screen and (max-width: 770px) {
     .topbar {

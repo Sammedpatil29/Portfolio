@@ -113,15 +113,15 @@ margin-right: 3%;
 }
 
 
-.dot-circle {
+/* .dot-circle {
   position: absolute;
-  top: 10px; /* Adjust distance from top */
-  right: 10px; /* Adjust distance from right */
-  width: 10px; /* Dot circle size */
+  top: 10px; 
+  right: 10px;
+  width: 10px; 
   height: 10px;
-  border-radius: 50%; /* Make it a circle */
-  background-color: red; /* Change the dot color */
-}
+  border-radius: 50%; 
+  background-color: red; 
+} */
 
 @keyframes scrollLeft {
   0% {
